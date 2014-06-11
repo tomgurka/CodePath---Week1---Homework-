@@ -3,7 +3,7 @@ CodePath---Week1---Homework-
 
 Total Time
 ============================
-4.5 Hours
+6 Hours
 
 Required stories completed
 ============================
