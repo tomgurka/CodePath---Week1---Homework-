@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:"
+      name = "">
+      <FileRef
+         location = "group:MainViewController.h">
+      </FileRef>
+      <FileRef
+         location = "group:MainViewController.m">
+      </FileRef>
+      <FileRef
+         location = "group:MainViewController.xib">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "group:Week1"
+         name = "Week1">
+         <FileRef
+            location = "group:AppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.m">
+         </FileRef>
+         <Group
+            location = "group:en.lproj"
+            name = "en.lproj">
+            <FileRef
+               location = "group:InfoPlist.strings">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Images.xcassets"
+            name = "Images.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Facebook Story Assets"
+               name = "Facebook Story Assets">
+               <Group
+                  location = "group:bar_bg_rpt.imageset"
+                  name = "bar_bg_rpt.imageset">
+                  <FileRef
+                     location = "group:bar_bg_rpt@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:bar_bg_rpt@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:bar_bg_rpt_highlight.imageset"
+                  name = "bar_bg_rpt_highlight.imageset">
+                  <FileRef
+                     location = "group:bar_bg_rpt_highlight@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:bar_bg_rpt_highlight@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:comment_btn.imageset"
+                  name = "comment_btn.imageset">
+                  <FileRef
+                     location = "group:comment_btn@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:comment_btn@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:commentbar.imageset"
+                  name = "commentbar.imageset">
+                  <FileRef
+                     location = "group:commentbar@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:commentbar@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:feed_tab_img.imageset"
+                  name = "feed_tab_img.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:feed_tab_img@2x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:feed_tab_img@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:her_image.imageset"
+                  name = "her_image.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:her_image.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:her_image.png">
+               </FileRef>
+               <Group
+                  location = "group:her_profile_image.imageset"
+                  name = "her_profile_image.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:her_profile_image.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:her_profile_image.png">
+               </FileRef>
+               <Group
+                  location = "group:launch_image.imageset"
+                  name = "launch_image.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:launch_image.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:launch_image@2x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:launch_image.png">
+               </FileRef>
+               <FileRef
+                  location = "group:launch_image@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:launch_image_r4@2x-1-1.imageset"
+                  name = "launch_image_r4@2x-1-1.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:launch_image_r4@2x-1.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:launch_image_r4@2x-1.png">
+               </FileRef>
+               <Group
+                  location = "group:like_btn.imageset"
+                  name = "like_btn.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:like_btn@2x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:like_btn@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:like_btn_selected.imageset"
+                  name = "like_btn_selected.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:like_btn_selected@2x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:like_btn_selected@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:messages_tab_img.imageset"
+                  name = "messages_tab_img.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:messages_tab_img@2x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:messages_tab_img@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:more_tab_img.imageset"
+                  name = "more_tab_img.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_tab_img@2x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:more_tab_img@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:navbar.imageset"
+                  name = "navbar.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:navbar@2x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:navbar@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:tabbar.imageset"
+                  name = "tabbar.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:tabbar@2x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:tabbar@2x.png">
+               </FileRef>
+               <Group
+                  location = "group:textfieldBackground.imageset"
+                  name = "textfieldBackground.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:textfieldBackground@2x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:textfieldBackground@2x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:LaunchImage.launchimage"
+               name = "LaunchImage.launchimage">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Week1-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Week1-Prefix.pch">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Week1.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Week1.xcworkspace">
+      </FileRef>
+      <Group
+         location = "group:Week1Tests"
+         name = "Week1Tests">
+         <Group
+            location = "group:en.lproj"
+            name = "en.lproj">
+            <FileRef
+               location = "group:InfoPlist.strings">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Week1Tests-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Week1Tests.m">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>

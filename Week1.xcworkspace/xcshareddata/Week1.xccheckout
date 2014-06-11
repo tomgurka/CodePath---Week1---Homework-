@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>47A5F85A-F2CD-4D91-A3E7-4A243F77DD5B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Week1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CB3277C9-DAD5-4BB0-AA55-AA5ABBF7DBD1</key>
+		<string>https://github.com/tomgurka/CodePath---Week1---Homework-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Week1.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CB3277C9-DAD5-4BB0-AA55-AA5ABBF7DBD1</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tomgurka/CodePath---Week1---Homework-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CB3277C9-DAD5-4BB0-AA55-AA5ABBF7DBD1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB3277C9-DAD5-4BB0-AA55-AA5ABBF7DBD1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Week1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
