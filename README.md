@@ -20,12 +20,22 @@ Add a UITextField with a background image.
 
 Add UILabels with attributed text (instead of plain text), so that you can bold individual words.
 
+Required stories incomplete 
+============================
+
 Setup CocoaPods for managing 3rd party libraries and use TTTAttributedLabel to style the link and make it clickable
+I got the cocoapod installed in my project, and also added the TTTAttributedLabel Directory, but was unable to get my textField to work correctly with the code...
 
 
 Optional stories completed
 ============================
 
 Move the textfield when the keyboard appears
+
+
+Gif
+============================
+
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 
 
