@@ -36,6 +36,6 @@ Move the textfield when the keyboard appears
 Gif
 ============================
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](/relative/path/to/Week1Lice.gif?raw=true "Optional Title")
 
 
