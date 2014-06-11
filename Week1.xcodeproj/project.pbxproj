@@ -50,9 +50,9 @@
 		E20C37BC1942B359003FC6C1 /* Week1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Week1Tests-Info.plist"; sourceTree = "<group>"; };
 		E20C37BE1942B359003FC6C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E20C37C01942B359003FC6C1 /* Week1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week1Tests.m; sourceTree = "<group>"; };
-		E20C37CA1942B368003FC6C1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		E20C37CB1942B368003FC6C1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		E20C37CC1942B368003FC6C1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		E20C37CA1942B368003FC6C1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		E20C37CB1942B368003FC6C1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		E20C37CC1942B368003FC6C1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +82,6 @@
 		E20C378F1942B359003FC6C1 = {
 			isa = PBXGroup;
 			children = (
-				E20C37CA1942B368003FC6C1 /* MainViewController.h */,
-				E20C37CB1942B368003FC6C1 /* MainViewController.m */,
-				E20C37CC1942B368003FC6C1 /* MainViewController.xib */,
 				E20C37A11942B359003FC6C1 /* Week1 */,
 				E20C37BA1942B359003FC6C1 /* Week1Tests */,
 				E20C379A1942B359003FC6C1 /* Frameworks */,
@@ -115,6 +112,9 @@
 		E20C37A11942B359003FC6C1 /* Week1 */ = {
 			isa = PBXGroup;
 			children = (
+				E20C37CA1942B368003FC6C1 /* MainViewController.h */,
+				E20C37CB1942B368003FC6C1 /* MainViewController.m */,
+				E20C37CC1942B368003FC6C1 /* MainViewController.xib */,
 				E20C37AA1942B359003FC6C1 /* AppDelegate.h */,
 				E20C37AB1942B359003FC6C1 /* AppDelegate.m */,
 				E20C37AD1942B359003FC6C1 /* Images.xcassets */,
@@ -447,6 +447,7 @@
 				E20C37C61942B359003FC6C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E20C37C71942B359003FC6C1 /* Build configuration list for PBXNativeTarget "Week1Tests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +456,7 @@
 				E20C37C91942B359003FC6C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

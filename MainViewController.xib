@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
             <connections>
+                <outlet property="commentImageView" destination="VyT-an-1Uf" id="NF0-aD-OnO"/>
                 <outlet property="introView" destination="0rP-7T-xXM" id="idB-Dj-auX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -140,14 +141,22 @@
                             </attributedString>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Q3v-o1-rtf">
-                            <rect key="frame" x="68" y="5" width="280" height="55"/>
+                        <label autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="none" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="156" translatesAutoresizingMaskIntoConstraints="NO" id="Q3v-o1-rtf">
+                            <rect key="frame" x="68" y="12" width="156" height="31"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <attributedString key="attributedText">
-                                <fragment content="Her">
+                                <fragment content="Her                      ">
                                     <attributes>
                                         <color key="NSColor" red="0.094117647058823528" green="0.10980392156862745" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                                         <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                        <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="February 1 at 11:00 AM">
+                                    <attributes>
+                                        <color key="NSColor" red="0.60784313725490191" green="0.61960784313725492" blue="0.63529411764705879" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="12" name="HelveticaNeue-Bold"/>
                                         <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                     </attributes>
@@ -166,33 +175,39 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="commentbar" translatesAutoresizingMaskIntoConstraints="NO" id="xtW-yt-iJW">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tabbar" translatesAutoresizingMaskIntoConstraints="NO" id="UwF-p5-UPs">
+                    <rect key="frame" x="0.0" y="524" width="320" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VyT-an-1Uf">
                     <rect key="frame" x="0.0" y="480" width="320" height="45"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <accessibility key="accessibilityConfiguration">
-                        <accessibilityTraits key="traits" none="YES" image="YES" notEnabled="YES"/>
-                    </accessibility>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tabbar" translatesAutoresizingMaskIntoConstraints="NO" id="UwF-p5-UPs">
-                    <rect key="frame" x="0.0" y="523" width="320" height="45"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" placeholder="  Write a comment..." clearsOnBeginEditing="YES" adjustsFontSizeToFit="NO" minimumFontSize="12" background="textfieldBackground" translatesAutoresizingMaskIntoConstraints="NO" id="UC5-7r-UJM">
-                    <rect key="frame" x="16" y="487" width="240" height="32"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <attributedString key="attributedText">
-                        <fragment content="  Write a comment...">
-                            <attributes>
-                                <color key="NSColor" red="0.59607843137254901" green="0.59607843137254901" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
-                                <font key="NSFont" size="14" name="HelveticaNeue-Medium"/>
-                                <font key="NSOriginalFont" size="14" name="HelveticaNeue-Medium"/>
-                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                            </attributes>
-                        </fragment>
-                    </attributedString>
-                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
-                </textField>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="commentbar" translatesAutoresizingMaskIntoConstraints="NO" id="xtW-yt-iJW">
+                            <rect key="frame" x="0.0" y="-1" width="320" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" image="YES" notEnabled="YES"/>
+                            </accessibility>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" placeholder="Write a comment..." clearsOnBeginEditing="YES" adjustsFontSizeToFit="NO" minimumFontSize="12" background="textfieldBackground" translatesAutoresizingMaskIntoConstraints="NO" id="UC5-7r-UJM">
+                            <rect key="frame" x="16" y="6" width="240" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <attributedString key="attributedText">
+                                <fragment content="Write a comment...">
+                                    <attributes>
+                                        <color key="NSColor" red="0.59607843137254901" green="0.59607843137254901" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="14" name="HelveticaNeue-Medium"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="7"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
             </subviews>
             <color key="backgroundColor" red="0.82745098039215681" green="0.83921568627450982" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
             <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
