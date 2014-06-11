@@ -1,9 +1,13 @@
 CodePath---Week1---Homework-
 ============================
-Total Time: 
+
+Total Time
+============================
 4.5 Hours
 
-Required stories completed:
+Required stories completed
+============================
+
 Create an unscrollable detail view of Facebook post, such as the one above
 
 Add a container view and modify properties: backgroundColor, cornerRadius, font, textColor, shadowOffset.
@@ -19,7 +23,9 @@ Add UILabels with attributed text (instead of plain text), so that you can bold 
 Setup CocoaPods for managing 3rd party libraries and use TTTAttributedLabel to style the link and make it clickable
 
 
-Optional stories completed:
+Optional stories completed
+============================
+
 Move the textfield when the keyboard appears
 
 
